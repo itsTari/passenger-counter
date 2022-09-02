@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/rainy.jpg.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    background-image: url(images/rainy.jpg.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+    background-color: brown;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 50px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 35px;
+    border: none;
+    padding: 12px  70px;
+    font-weight:600 ;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.increment{
+    background-color:cadetblue;
+    cursor: pointer;
+}
+.save{
+    background-color: rgb(0, 100, 0, 0.6);
+    margin-top: 10px;
+    cursor: pointer;
+}
